@@ -1,7 +1,7 @@
 # Creates an environment with Anaconda, Python, and Numpy
 # To add packages see anaconda::package
 
-define anaconda::env( $anaconda_version='4.4.0', $numpy='1.7', $python='3.5',
+define anaconda::env( $anaconda_version='5.0.1', $numpy='1.13.3', $python='3.6',
                     $base_path='/opt/anaconda') {
     include anaconda
 
